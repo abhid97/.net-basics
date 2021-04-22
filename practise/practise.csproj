@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="My Classes\polymorphism.cs" />
     <Compile Include="My Classes\gcard.cs" />
     <Compile Include="My Classes\property.cs" />
     <Compile Include="My Classes\Cons.cs" />

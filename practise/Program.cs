@@ -7,6 +7,7 @@ using Cons1;
 using secondClass1;
 using thirdClass1;
 using property;
+using Polymorphism;
 namespace practise
 {
     
@@ -65,7 +66,18 @@ namespace practise
             {
                 Console.WriteLine("INPUT OUT OF RANGE");
             }
-            
+            functionOverload over = new functionOverload();
+            over.sum(3);
+            over.sum(3.675);
+            over.sum("ABC");
+
+            abs abst = new abs();
+            abst.absMethod();
+            abst.nonabsMehtod();
+            abst.firstintmethod();
+            abst.secintmethod();
+            //poly abs = new poly(); cannot create an instance of abstract class
+
             Console.ReadKey();
         }
     }
